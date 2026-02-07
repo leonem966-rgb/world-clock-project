@@ -36,6 +36,8 @@ let torontoTime = moment ().tz("America/Toronto");
 torontoDateElement.innerHTML = moment().tz("America/Toronto").format("MMMM Do YYYY");
 torontoTimeElement.innerHTML = moment().tz("America/Toronto").format("h:mm:ss [<small>]A[</small>]");  
 
+//<a href="/">Back to all cities</a>
+
 }
 
 updateTime();
